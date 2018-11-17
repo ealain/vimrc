@@ -57,8 +57,8 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-" Directory for swap files.
-set directory=~/.vim/swap
+" " Directory for swap files.
+" set directory=~/.vim/swap
 
 " Select color.
 colorscheme slate
