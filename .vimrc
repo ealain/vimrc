@@ -44,9 +44,7 @@ set laststatus=2
 set visualbell
 set t_vb=
 
-" Show the line number relative to line with the cursor.
-set relativenumber
-" Display the current line number.
+" Display line numbers.
 set number
 
 " Minimal number of screen lines to keep above and below the cursor.
