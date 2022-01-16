@@ -52,7 +52,6 @@ set scrolloff=10
 
 " Indentation settings to use 4 spaces instead of tabs.
 set shiftwidth=4
-set softtabstop=4
 set expandtab
 
 " " Directory for swap files.
