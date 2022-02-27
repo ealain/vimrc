@@ -83,12 +83,6 @@ map k gk
 " Shortcut to disable highlighting.
 map \q :nohlsearch<CR>
 
-" NAVIGATION
-" Map commands to change buffers quickly.
-map <C-n> :bnext<CR>
-map <C-p> :bprev<CR>
-map <C-d> :bdelete<CR>
-
 " More natural splits
 set splitbelow
 set splitright
