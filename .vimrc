@@ -19,6 +19,8 @@ set showcmd
 
 " Highlight searches.
 set hlsearch
+" Incremental search.
+set incsearch
 
 " Disable modelines (activate options from edited files) for security.
 set nomodeline
@@ -81,7 +83,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Shortcut to disable highlighting.
-map \q :nohlsearch<CR>
+map <leader>q :nohlsearch<CR>
 
 " More natural splits
 set splitbelow
