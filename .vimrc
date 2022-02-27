@@ -8,9 +8,9 @@ syntax on
 " A buffer becomes hidden when it is abandonned.
 set hidden
 
-" If more than one match, list all matches and complete till longest common
-" string.
-set wildmode=list,longest,full
+" If more than one match, complete next full match (wildmode=full) and open
+" wildmenu.
+set wildmenu
 " Ignore case for completion.
 set wildignorecase
 
