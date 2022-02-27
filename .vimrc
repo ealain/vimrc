@@ -36,8 +36,16 @@ set backspace=indent,eol,start
 " the same indent as the line you're currently on.
 set autoindent
 
-" Default status line with total number of lines.
-set statusline=%<%f\ %h%m%r%=%c%V\ %L
+" Status line
+set statusline=%<
+set statusline+=%n\      " buffer number
+set statusline+=%f\      " file path
+set statusline+=%m%r     " flags: help, modifiable, readonly
+set statusline+=%=       " left / right separation
+set statusline+=%y\      " file type
+set statusline+=%c%V\    " column number (virtual optionally)
+set statusline+=%l\ /\   " total number of lines
+set statusline+=%L       " total number of lines
 
 " Always display the status line.
 set laststatus=2
