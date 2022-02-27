@@ -78,6 +78,9 @@ highlight Search ctermfg=0 ctermbg=10
 highlight OverLength ctermfg=red
 match OverLength /\%>80v.\+/
 
+" Mappings
+let mapleader = "\\"
+
 " Stay on the current line if it wraps.
 nnoremap j gj
 nnoremap k gk
