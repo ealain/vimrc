@@ -77,8 +77,8 @@ highlight OverLength ctermfg=red
 match OverLength /\%>80v.\+/
 
 " Stay on the current line if it wraps.
-map j gj
-map k gk
+nnoremap j gj
+nnoremap k gk
 
 " Shortcut to disable highlighting.
 map \q :nohlsearch<CR>
